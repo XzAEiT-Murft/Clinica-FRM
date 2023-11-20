@@ -16,7 +16,6 @@ body{
     justify-content: space-between;
     width: 100%;
 }
-
 @keyframes entrada{
     0%{
         transform: rotate(-10deg) scale(0.9) translateX(0) translateY(0);
@@ -27,16 +26,6 @@ body{
         opacity: 1;
     }
 }
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 809px){
     .header{
         position: relative;
@@ -149,6 +138,10 @@ body{
         padding: 15px;
         font-size: 16px;
     }
+    #txt_5{
+        font-weight: bold;
+        font-size: 4vw;
+    }
     .Input_user{
         outline: none;
         color: #222222;
@@ -198,15 +191,6 @@ body{
         font-size: 3.6vw;
     }
 }
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 810px) and (max-width: 1199px){
     .header{
         position: relative;
@@ -315,11 +299,14 @@ body{
     .btn_user{
         margin-left: 4.2%;
         padding: 5.04%;
-        font-size: 2vw;
     }
     .btn_password{
         padding: 15px;
         font-size: 16px;
+    }
+    #txt_5{
+        font-weight: bold;
+        font-size: 2vw;
     }
     .Input_user{
         outline: none;
@@ -478,6 +465,9 @@ body{
         margin-left: 4.3%;
         border-radius: 0.75em;
         padding: 4.27%;
+    }
+    #txt_5{
+        font-weight: bold;
         font-size: 1.3vw;
     }
     .btn_password{
@@ -577,6 +567,9 @@ body{
     color: #FFFFFF;
     border-radius: 0.75em;
     height: auto;
+    text-align: center;
+    align-items: center;
+
 }
 .btn_password{
     background-color: #10C1AD;
@@ -595,5 +588,5 @@ body{
     animation: entrada 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 .error-border{
-    border: 0.1vw solid #EE4444;
+    border: 0.2vw solid #EE4444;
 }
