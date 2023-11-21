@@ -1,4 +1,0 @@
-235
-
-buton 93px
-label 235

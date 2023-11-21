@@ -9,10 +9,14 @@ body{
     overflow-x: auto;
 }
 .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: white;
-    margin: auto; 
+    margin: auto;
 }
 .Screen{
+    display: block;
     justify-content: space-between;
     width: 100%;
 }
@@ -126,17 +130,13 @@ body{
         font-size: 3.8vw;
     }
     .part_5{
-        position: relative;
-        width: 1fr;
-        height: auto;
+        display: flex;
     }
     .btn_user{
         padding: 6.27%;
-        font-size: 4vw;
     }
     .btn_password{
-        padding: 15px;
-        font-size: 16px;
+        padding: 6.27%;
     }
     #txt_5{
         font-weight: bold;
@@ -161,7 +161,7 @@ body{
         border-radius: 0.75em;
         padding: 6.27%;
         font-size: 4vw;
-        width: 70.91%;
+        width: 67.4%;
         height: auto;
     }
     .footer{
@@ -301,8 +301,8 @@ body{
         padding: 5.04%;
     }
     .btn_password{
-        padding: 15px;
-        font-size: 16px;
+        margin-left: 4.2%;
+        padding: 5.04%;
     }
     #txt_5{
         font-weight: bold;
@@ -325,9 +325,9 @@ body{
         background-color: #F2F2F2;
         border: none;
         border-radius: 0.75em;
-        padding: 15px;
-        font-size: 16px;
-        width: 70.9%;
+        padding: 5.04%;
+        font-size: 2vw;
+        width: 69.4%;
         height: auto;
     }
     .footer{
@@ -368,8 +368,8 @@ body{
         display: grid; 
         grid-template-areas: "Main   button";
         width: 83.4%;
-        height: 100%;
-        grid-template-columns: repeat(2, auto);
+        height: 7.7vw;
+        grid-template-rows: repeat(2, auto);
         align-items: center;
     }
     .part_1 {
@@ -436,7 +436,7 @@ body{
         width:48.4%;
         height: auto;
         margin-left: 51.6%;
-        padding: 0px;
+        padding: 0%;
     }
     .part_3{
         position: relative;
@@ -466,15 +466,14 @@ body{
         border-radius: 0.75em;
         padding: 4.27%;
     }
-    #txt_5{
-        font-weight: bold;
-        font-size: 1.3vw;
-    }
     .btn_password{
         border-radius: 0.75em;
         margin-left: 4.3%;
-        padding: 15px;
-        font-size: 16px;
+        padding: 4.27%;
+    }
+    #txt_5{
+        font-weight: bold;
+        font-size: 1.3vw;
     }
     .Input_user{
         outline: none;
@@ -493,9 +492,9 @@ body{
         background-color: #F2F2F2;
         border: none;
         border-radius: 0.75em;
-        padding: 10px;
-        font-size: 1rem;
-        width: 74.72%;
+        padding: 4.27%;
+        font-size: 1.3vw;
+        width: 73%;
         height: auto;
     }  
     .footer{
